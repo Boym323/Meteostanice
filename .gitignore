@@ -1,12 +1,15 @@
-*.DB
-*.json
+# PlatformIO
+.pio/
 .pioenvs/
 .piolibdeps/
+
+# Editor / OS
 .vscode/
-*.json
 .DS_Store
-Hlavni meteostanice/.vscode/c_cpp_properties.json
-Hlavni meteostanice/.vscode/.BROWSE.C_CPP.DB
-Hlavni meteostanice/.vscode/c_cpp_properties.json
+*.DB
+
+# Local configuration with credentials
+Hlavni meteostanice/src/secrets.h
+
+# Generated/local files
 *.json
-Hlavni meteostanice/.pio/build/project.checksum
